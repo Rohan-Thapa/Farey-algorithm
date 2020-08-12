@@ -1,4 +1,5 @@
 import math
+
 def fraction(number, precision):
     pnts, num = math.modf(number)
     round_to = len(str(number).split('.')[1])
@@ -12,11 +13,9 @@ def fraction(number, precision):
         if median > pnts:
             a1 = numerator
             a2 = denominator
-            
         elif median < pnts:
             b1 = numerator
             b2 = denominator
-            
         else:
             return (str((int(num) * denominator) + numerator) + " / " + str(denominator))
             
