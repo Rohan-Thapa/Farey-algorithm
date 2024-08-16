@@ -25,9 +25,9 @@ def fraction(number, precision):
     temp1, temp2 = (a1/a2) - pnts, pnts - (b1/b2)
     
     if (temp1 - temp2) > 0:
-        return (str((int(num) * b2) + b1) +" / "+ str(b2)
+        return (str((int(num) * b2) + b1)) +" / "+ str(b2)
     elif (temp1 - temp2) < 0:
-        return (str((int(num) * a2) + a1) +" / "+ str(a2)
+        return (str((int(num) * a2) + a1)) +" / "+ str(a2)
     else:
         return "An Error had occured while calculating!"
         
