@@ -41,4 +41,7 @@ def fraction(number: float, precision: int) -> Union[str, None]:
     else:
         return "An Error occurred while calculating!"
 
-print(fraction(126.58215, 3)) # here initial value is the actual value and the 2nd is the accuracy which you want.
+value: float = float(input("Enter the value which you want to convert into fraction: "))
+accuracy: int = int(input("Enter the number until which you want accuracy in denominator: "))
+
+print(fraction(value, accuracy)) # here initial value is the actual value and the 2nd is the accuracy which you want.
