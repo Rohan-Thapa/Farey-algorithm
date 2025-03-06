@@ -41,4 +41,4 @@ def fraction(number: float, precision: int) -> Union[str, None]:
     else:
         return "An Error occurred while calculating!"
 
-print(fraction(126.58215, 3))
+print(fraction(126.58215, 0))
