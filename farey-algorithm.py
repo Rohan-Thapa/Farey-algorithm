@@ -41,4 +41,4 @@ def fraction(number: float, precision: int) -> Union[str, None]:
     else:
         return "An Error occurred while calculating!"
 
-print(fraction(126.58215, 0))
+print(fraction(126.58215, 3)) # here initial value is the actual value and the 2nd is the accuracy which you want.
