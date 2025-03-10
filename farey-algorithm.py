@@ -45,3 +45,4 @@ value: float = float(input("Enter the value which you want to convert into fract
 accuracy: int = int(input("Enter the number until which you want accuracy in denominator: "))
 
 print(fraction(value, accuracy)) # here initial value is the actual value and the 2nd is the accuracy which you want.
+# HandCrafted by Rohan Thapa | All Hail to Aculan Empire <(°_°)>
